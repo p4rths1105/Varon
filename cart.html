@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Cart | VARON</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER (same as index page) -->
+  <header class="main-header">
+    <div class="container header-content">
+      <div class="logo">
+        <a href="./index.html">VARON</a>
+      </div>
+
+      <form class="search-bar">
+        <input type="text" placeholder="Search for products..." />
+        <button type="submit">🔍</button>
+      </form>
+
+      <div class="header-icons">
+        <a href="wishlist.html">🤍</a>
+        <a href="cart.html">🛒</a>
+        <a href="profile.html">👤</a>
+      </div>
+    </div>
+
+    <nav class="sub-header">
+      <a href="fashion.html">Fashion</a>
+      <a href="electronics.html">Electronics</a>
+      <a href="decor.html">Home Decor</a>
+      <a href="beauty.html">Beauty</a>
+      <a href="books.html">Books</a>
+      <a href="sports.html">Sports</a>
+    </nav>
+  </header>
+
+  <!-- CART SECTION -->
+  <section class="cart">
+    <h2>Your Shopping Cart</h2>
+
+    <!-- If cart is empty (you can show this conditionally using JS later) -->
+    <!-- <div class="empty-cart">
+      <img src="https://cdn-icons-png.flaticon.com/512/2038/2038854.png" alt="Empty Cart" />
+      <p>Your cart is currently empty.</p>
+      <a href="index.html">Start Shopping</a>
+    </div> -->
+
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+          <th>Remove</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="Product 1" /></td>
+          <td>Classic White T-Shirt</td>
+          <td>₹799</td>
+          <td>
+            <div class="cart-qty">
+              <button>-</button>
+              <input type="number" value="1" min="1" />
+              <button>+</button>
+            </div>
+          </td>
+          <td>₹799</td>
+          <td><span class="remove-item">Remove</span></td>
+        </tr>
+
+        <tr>
+          <td><img src="https://images.unsplash.com/photo-1585386959984-a41552231693" alt="Product 2" /></td>
+          <td>Wireless Earbuds</td>
+          <td>₹1,999</td>
+          <td>
+            <div class="cart-qty">
+              <button>-</button>
+              <input type="number" value="2" min="1" />
+              <button>+</button>
+            </div>
+          </td>
+          <td>₹3,998</td>
+          <td><span class="remove-item">Remove</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="cart-total">
+      <h3>Order Summary</h3>
+      <p>Subtotal: ₹4,797</p>
+      <p>Shipping: ₹99</p>
+      <hr style="margin: 15px 0; border: 0; border-top: 1px solid #ddd;">
+      <p><strong>Total: ₹4,896</strong></p>
+      <button>Proceed to Checkout</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="contact">
+    <div class="container contact-content">
+      <h2>Get in Touch</h2>
+      <p>We’re here to make your shopping experience smoother, simpler, and more elegant.</p>
+
+      <div class="contact-info">
+        <p><strong>Email:</strong> support@varon.com</p>
+        <p><strong>Phone:</strong> +91 83490 39140</p>
+        <p><strong>Address:</strong> 417, R2, Sonipat, Delhi NCR, India</p>
+      </div>
+
+      <div class="newsletter">
+        <input type="email" placeholder="Subscribe for updates..." />
+        <button>Subscribe</button>
+      </div>
+
+      <div class="socials">
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">LinkedIn</a>
+      </div>
+
+      <p class="footer-note">© 2025 VARON. Crafted with class and care.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
