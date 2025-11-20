@@ -1,4 +1,4 @@
-/* -------------------- GLOBAL STYLES -------------------- */
+/*GLOBAL STYLES  */
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +18,7 @@ body {
   margin: auto;
 }
 
-/* -------------------- HEADER -------------------- */
+/*  HEADER */
 .main-header {
   position: fixed;
   top: 0;
@@ -90,7 +90,7 @@ body {
   color: #e36b00;
 }
 
-/* -------------------- SUB HEADER -------------------- */
+/*  SUB HEADER  */
 .sub-header {
   display: flex;
   justify-content: center;
@@ -115,7 +115,7 @@ body {
 /* -------------------- HERO SECTION -------------------- */
 .hero {
   height: 90vh;
-  background: url('https://images.unsplash.com/photo-1503342217505-b0a15ec3261c') center/cover no-repeat;
+  background: url('./assets/images/hero.jpg') center/cover no-repeat;
   position: relative;
   margin-top: 120px;
 }
@@ -153,6 +153,7 @@ body {
   color: #fff;
   border-radius: 25px;
   font-weight: 500;
+  text-decoration: none;
   transition: 0.3s;
 }
 
@@ -375,7 +376,7 @@ footer .socials a:hover {
   color: #aaa;
 }
 
-/* -------------------- RESPONSIVE -------------------- */
+/* RESPONSIVE  */
 @media (max-width: 768px) {
   .header-content {
     flex-direction: column;
@@ -400,10 +401,7 @@ footer .socials a:hover {
 }
 
 
-/* =========================
-   WISHLIST PAGE STYLES
-   (Add this at the end of style.css)
-========================= */
+/* ========================= WISHLIST PAGE STYLES */
 
 .wishlist {
   max-width: 1200px;
@@ -534,10 +532,7 @@ footer .socials a:hover {
   }
 }
 
-/* =========================
-   CART PAGE STYLES
-   (Add this at the end of style.css)
-========================= */
+/* CART PAGE STYLES */
 
 .cart {
   max-width: 1200px;
@@ -938,7 +933,8 @@ footer .socials a:hover {
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 40px;
 }
 
