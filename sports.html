@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,92 +8,99 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<header class="main-header">
-  <div class="container header-content">
-    <div class="logo">
+  <header class="main-header">
+    <div class="container header-content">
+      <div class="logo">
         <a href="./index.html">VARON</a>
+      </div>
+      <form class="search-bar">
+        <input type="text" placeholder="Search for products...">
+        <button type="submit"><img src="./assets/images/icons/search.png" width="20px" height="20px"></button>
+      </form>
+      <div class="header-icons">
+        <a href="wishlist.html"><img src="./assets/images/icons/heart.png" alt="cart" width="30px" height="30px"></a>
+        <a href="cart.html"><img src="./assets/images/icons/cart.png" alt="cart" width="30px" height="30px"></a>
+        <a href="profile.html"><img src="./assets/images/icons/profile.png" alt="cart" width="32px" height="32px"></a>
+      </div>
     </div>
-    <form class="search-bar">
-      <input type="text" placeholder="Search for products...">
-      <button type="submit"><img src="./assets/images/icons/search.png" width="20px" height="20px"></button>
-    </form>
-    <div class="header-icons">
-      <a href="wishlist.html"><img src="./assets/images/icons/heart.png" alt="cart" width="30px" height="30px"></a>
-      <a href="cart.html"><img src="./assets/images/icons/cart.png" alt="cart" width="30px" height="30px"></a>
-      <a href="profile.html"><img src="./assets/images/icons/profile.png" alt="cart" width="32px" height="32px"></a>
-    </div>
-  </div>
 
-  <nav class="sub-header">
-    <a href="fashion.html">Fashion</a>
-    <a href="electronics.html">Electronics</a>
-    <a href="decor.html">Home Decor</a>
-    <a href="beauty.html">Beauty</a>
-    <a href="books.html">Books</a>
-    <a href="sports.html" class="active">Sports</a>
-  </nav>
-</header>
+    <nav class="sub-header">
+      <a href="fashion.html">Fashion</a>
+      <a href="electronics.html">Electronics</a>
+      <a href="decor.html">Home Decor</a>
+      <a href="beauty.html">Beauty</a>
+      <a href="books.html">Books</a>
+      <a href="sports.html" class="active">Sports</a>
+    </nav>
+  </header>
 
-<section class="category-hero" style="background-image: url('./assets/images/sports_banner.jpg');">
-  <div class="category-hero-text">
-    <h1>Gear Up & Go</h1>
-    <p>From gym essentials to outdoor equipment — everything you need to stay fit.</p>
-  </div>
-</section>
+  <section class="category-hero" style="background-image: url('./assets/images/sports_banner.jpg');">
+    <div class="category-hero-text">
+      <h1>Gear Up & Go</h1>
+      <p>From gym essentials to outdoor equipment — everything you need to stay fit.</p>
+    </div>
+  </section>
 
-<section class="product-section container">
-  <h2>Top Sports Gear</h2>
-  <div class="product-grid">
-    <div class="product-card">
-      <img src="./assets/images/sports_product1.jpg" alt="">
-      <h3>Running Shoes</h3>
-      <p>₹2,799</p>
-      <div class="product-actions"><button class="btn-cart">Add to Cart</button><button class="btn-wish">♡ Wishlist</button></div>
+  <section class="product-section container">
+    <h2>Top Sports Gear</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="./assets/images/sports_product1.jpg" alt="">
+        <h3>Running Shoes</h3>
+        <p>₹2,799</p>
+        <div class="product-actions"><button class="btn-cart">Add to Cart</button><button class="btn-wish">♡
+            Wishlist</button></div>
+      </div>
+      <div class="product-card">
+        <img src="./assets/images/sports_product2.jpg" alt="">
+        <h3>Dumbbell Set</h3>
+        <p>₹1,999</p>
+        <div class="product-actions"><button class="btn-cart">Add to Cart</button><button class="btn-wish">♡
+            Wishlist</button></div>
+      </div>
+      <div class="product-card">
+        <img src="./assets/images/sports_product3.jpg" alt="">
+        <h3>Yoga Mat</h3>
+        <p>₹799</p>
+        <div class="product-actions"><button class="btn-cart">Add to Cart</button><button class="btn-wish">♡
+            Wishlist</button></div>
+      </div>
+      <div class="product-card">
+        <img src="./assets/images/sports_product4.jpg" alt="">
+        <h3>Sports Bag</h3>
+        <p>₹1,299</p>
+        <div class="product-actions"><button class="btn-cart">Add to Cart</button><button class="btn-wish">♡
+            Wishlist</button></div>
+      </div>
     </div>
-    <div class="product-card">
-      <img src="./assets/images/sports_product2.jpg" alt="">
-      <h3>Dumbbell Set</h3>
-      <p>₹1,999</p>
-      <div class="product-actions"><button class="btn-cart">Add to Cart</button><button class="btn-wish">♡ Wishlist</button></div>
-    </div>
-    <div class="product-card">
-      <img src="./assets/images/sports_product3.jpg" alt="">
-      <h3>Yoga Mat</h3>
-      <p>₹799</p>
-      <div class="product-actions"><button class="btn-cart">Add to Cart</button><button class="btn-wish">♡ Wishlist</button></div>
-    </div>
-    <div class="product-card">
-      <img src="./assets/images/sports_product4.jpg" alt="">
-      <h3>Sports Bag</h3>
-      <p>₹1,299</p>
-      <div class="product-actions"><button class="btn-cart">Add to Cart</button><button class="btn-wish">♡ Wishlist</button></div>
-    </div>
-  </div>
-</section>
+  </section>
 
-<footer class="contact">
-  <div class="container contact-content">
-    <h2>Get in Touch</h2>
-    <p>We're here to make your shopping experience smoother, simpler, and more elegant.</p>
-    <div class="contact-info">
-      <p><strong>Email:</strong> support@varon.com</p>
-      <p><strong>Phone:</strong> +91 98765 43210</p>
-      <p><strong>Address:</strong> Bengaluru, India</p>
+  <footer class="contact">
+    <div class="container contact-content">
+      <h2>Get in Touch</h2>
+      <p>We're here to make your shopping experience smoother, simpler, and more elegant.</p>
+      <div class="contact-info">
+        <p><strong>Email:</strong> support@varon.com</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Address:</strong> Bengaluru, India</p>
+      </div>
+      <div class="newsletter">
+        <input type="email" placeholder="Subscribe for updates...">
+        <button>Subscribe</button>
+      </div>
+      <div class="socials">
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">LinkedIn</a>
+      </div>
+      <p class="footer-note">© 2025 VARON. Crafted with class and care.</p>
     </div>
-    <div class="newsletter">
-      <input type="email" placeholder="Subscribe for updates...">
-      <button>Subscribe</button>
-    </div>
-    <div class="socials">
-      <a href="#">Instagram</a>
-      <a href="#">Twitter</a>
-      <a href="#">LinkedIn</a>
-    </div>
-    <p class="footer-note">© 2025 VARON. Crafted with class and care.</p>
-  </div>
-</footer>
+  </footer>
 
+  <script src="script.js"></script>
 </body>
+
 </html>

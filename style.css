@@ -24,7 +24,7 @@ body {
   top: 0;
   width: 100%;
   background-color: #ffffffd9;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }
 
@@ -35,7 +35,7 @@ body {
   padding: 15px 0;
 }
 
-.logo a{
+.logo a {
   font-size: 2.2rem;
   font-weight: bold;
   color: black;
@@ -64,7 +64,7 @@ body {
 }
 
 .search-bar button {
-  background:  #ff7a59;
+  background: #ff7a59;
   color: #fff;
   border: none;
   padding: 10px 18px;
@@ -122,7 +122,7 @@ body {
 .hero-overlay {
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.45);
+  background: rgba(0, 0, 0, 0.45);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,7 +148,7 @@ body {
 .hero-text .cta {
   display: inline-block;
   padding: 12px 28px;
-  background:  #ff7a59;
+  background: #ff7a59;
   color: #fff;
   border-radius: 25px;
   font-weight: 500;
@@ -174,14 +174,14 @@ body {
 
 .featured-grid {
   display: grid;
-  grid-template-columns: repeat(3,1fr) ;
+  grid-template-columns: repeat(3, 1fr);
   gap: 70px;
 }
 
 .featured-card {
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   transition: 0.3s;
 }
@@ -196,7 +196,7 @@ body {
 
 .featured-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 
 .featured-card button {
@@ -228,14 +228,14 @@ body {
 
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 70px;
 }
 
 .category-card {
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   transition: 0.3s;
 }
@@ -250,7 +250,7 @@ body {
 
 .category-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 
 .category-card h3 {
@@ -261,7 +261,7 @@ body {
 .category-card a {
   text-decoration: none;
   color: #fff;
-  background:  #ff7a59;
+  background: #ff7a59;
   padding: 8px 18px;
   border-radius: 20px;
   display: inline-block;
@@ -297,7 +297,7 @@ body {
   background: #fff;
   border-radius: 10px;
   padding: 25px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
   font-style: italic;
 }
 
@@ -341,7 +341,7 @@ footer .newsletter input {
 }
 
 footer .newsletter button {
-  background:  #ff7a59;
+  background: #ff7a59;
   color: #fff;
   border: none;
   padding: 10px 22px;
@@ -359,7 +359,7 @@ footer .socials {
 }
 
 footer .socials a {
-  color:  #ff7a59;
+  color: #ff7a59;
   margin: 0 10px;
   text-decoration: none;
   font-weight: 500;
@@ -390,7 +390,9 @@ footer .socials a:hover {
     font-size: 2rem;
   }
 
-  .featured-grid, .category-grid, .review-grid {
+  .featured-grid,
+  .category-grid,
+  .review-grid {
     grid-template-columns: 1fr;
   }
 
@@ -415,8 +417,8 @@ footer .socials a:hover {
   margin-bottom: 40px;
 }
 
-.wishlist p{
-    margin-bottom: 60px;
+.wishlist p {
+  margin-bottom: 60px;
 }
 
 .wishlist-grid {
@@ -523,9 +525,11 @@ footer .socials a:hover {
   .wishlist h2 {
     font-size: 26px;
   }
+
   .wishlist-card {
     width: 90%;
   }
+
   .wishlist-card img {
     height: 260px;
   }
@@ -718,6 +722,7 @@ footer .socials a:hover {
     text-align: center;
   }
 }
+
 /* PROFILE PAGE */
 .profile {
   margin-top: 160px;
@@ -739,7 +744,7 @@ footer .socials a:hover {
 .profile-sidebar {
   background: #fff;
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   padding: 30px 20px;
   text-align: center;
   width: 280px;
@@ -784,7 +789,7 @@ footer .socials a:hover {
   background: #fff;
   flex: 1;
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   padding: 30px;
 }
 
@@ -837,7 +842,8 @@ footer .socials a:hover {
   margin-top: 25px;
 }
 
-.logout-btn, .delete-btn {
+.logout-btn,
+.delete-btn {
   padding: 10px 20px;
   border: none;
   border-radius: 8px;
@@ -879,6 +885,7 @@ footer .socials a:hover {
     width: 100%;
   }
 }
+
 /* CATEGORY PAGE (FASHION, ELECTRONICS, ETC.) */
 .category-hero {
   margin-top: 120px;
@@ -896,9 +903,11 @@ footer .socials a:hover {
 .category-hero::before {
   content: "";
   position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0,0,0,0.45);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
 }
 
 .category-hero-text {
@@ -940,14 +949,14 @@ footer .socials a:hover {
 .product-card {
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   padding: 20px;
   transition: all 0.3s ease;
 }
 
 .product-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
 }
 
 .product-card img {
@@ -975,7 +984,8 @@ footer .socials a:hover {
   gap: 10px;
 }
 
-.btn-cart, .btn-wish {
+.btn-cart,
+.btn-wish {
   flex: 1;
   border: none;
   padding: 8px 10px;
@@ -1010,4 +1020,96 @@ footer .socials a:hover {
   font-weight: bold;
 }
 
+/* DARK MODE */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
 
+.dark-mode .main-header {
+  background-color: #222;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .logo a {
+  color: #fff;
+}
+
+.dark-mode .header-icons a {
+  color: #ddd;
+}
+
+.dark-mode .header-icons a:hover {
+  color: #ff7a59;
+}
+
+.dark-mode .search-bar {
+  background: #333;
+}
+
+.dark-mode .search-bar input {
+  color: #fff;
+}
+
+.dark-mode .category-card,
+.dark-mode .featured-card,
+.dark-mode .wishlist-card,
+.dark-mode .product-card,
+.dark-mode .review-card,
+.dark-mode .profile-sidebar,
+.dark-mode .profile-details,
+.dark-mode .cart-table,
+.dark-mode .cart-total {
+  background: #2a2a2a;
+  color: #e0e0e0;
+  box-shadow: 0 3px 8px rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .category-card h3,
+.dark-mode .featured-card h3,
+.dark-mode .product-card h3,
+.dark-mode .wishlist-card h3,
+.dark-mode .review-card h4,
+.dark-mode .profile-sidebar h3,
+.dark-mode .profile-details h2,
+.dark-mode .cart-total h3,
+.dark-mode .wishlist h2,
+.dark-mode .cart h2,
+.dark-mode .featured h2,
+.dark-mode .categories h2,
+.dark-mode .reviews h2 {
+  color: #fff;
+}
+
+.dark-mode .reviews {
+  background: #222;
+}
+
+.dark-mode .cart-table th {
+  background-color: #333;
+  color: #fff;
+  border-bottom: 2px solid #444;
+}
+
+.dark-mode .cart-table td {
+  border-bottom: 1px solid #444;
+  color: #ccc;
+}
+
+.dark-mode .cart-qty input {
+  background: #444;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+.dark-mode .profile {
+  background: #1a1a1a;
+}
+
+.dark-mode .wishlist-actions {
+  border-top: 1px solid #444;
+}
+
+.dark-mode footer.contact {
+  background: #000;
+}
